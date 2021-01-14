@@ -1,15 +1,19 @@
-# Пульт охраны банка
+# Bank security console
 
-Пульт охраны банка - это сайт, который можно подключить к удаленной БД с визитами и карточками пропуска сотрудников нашего банка.
+Bank security console is site, which you can connect to remote database with all visits and passcards of workers of your bank.
 
 ### How to install
 
-[TODO: tell user where he should get keys, where they should be and how they look like]
+First of all, we should have the python upper 3.5.0 and manager pip. 
+You have to install all requirements from requirements.txt
 
-Python3 should be already installed. 
-Then use `pip` (or `pip3`, if there is a conflict with Python2) to install dependencies:
 ```
 pip install -r requirements.txt
+```
+
+After that you can run it from you local server with
+```
+python manage runserver 0.0.0.0:8080
 ```
 
 ### Project Goals
