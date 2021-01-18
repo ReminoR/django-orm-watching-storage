@@ -17,13 +17,13 @@ python manage runserver 0.0.0.0:8080
 ```
 
 ### .env
-The project uses variable of enviroment. You should create file .env in root directory and uses the next variables:
+The console uses variables of enviroment. You should create file .env in root directory and use the next variables:
 
 ```
 DB_PORT - port to your database
 DB_NAME - name of your database
-DB_USER - user 
-DB_PASSWORD - password
+DB_USER - user of your database
+DB_PASSWORD - password of your database
 SECRET_KEY - secret key for Django
 DEBUG - True (debug mode), False (production mode)
 ```
