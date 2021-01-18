@@ -19,13 +19,14 @@ python manage runserver 0.0.0.0:8080
 ### .env
 The project uses variable of enviroment. You should create file .env in root directory and uses the next variables:
 
+```
 DB_PORT - port to your database
 DB_NAME - name of your database
 DB_USER - user 
 DB_PASSWORD - password
 SECRET_KEY - secret key for Django
 DEBUG - True (debug mode), False (production mode)
-
+```
 ### Project Goals
 
 The code is written for educational purposes on online-course for web-developers [dvmn.org](https://dvmn.org/).
